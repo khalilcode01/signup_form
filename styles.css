@@ -17,11 +17,12 @@ html, body {
     flex: 1 0;
     justify-content: center;
     position: relative;
-
+    
 }
 .rside {
     display: flex;
     flex: 2 0;
+    flex-direction: column;
 }
 .photo {
     width:100%;
@@ -30,7 +31,7 @@ html, body {
 .cap-container {
     display: flex;
     position: absolute;
-    top: 200px;
+    top: 150px;
     height: 150px;
     width: 100%;
     justify-content: center;
@@ -44,5 +45,63 @@ html, body {
 .text {
     font-family: myMain;
     color: white;
-    font-size: 100px;
+    font-size: 700%;
+}
+.title, .follow {
+    font-size: 28px;
+}
+.title {
+    height: 250px;
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.color-up {
+    background-color: #f9fafb;
+}
+.follow {
+    margin-top: 25px;
+    
+}
+.form-card {
+    height: 300px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+.form {
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 100%;
+    width: 570px;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.one, .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+    
+}
+label {
+    font-size: 13px;
+    margin-bottom: -33px;
+}
+input {
+    border-color: #E5E7EB;
+    border-style: double;
+    font-size: 20px;
+}
+
+.lets {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
